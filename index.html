@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Admin Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Sidebar -->
+      <nav id="sidebar">
+        <div class="sidebar-header">
+          <img
+            src="https://1.bp.blogspot.com/-vhmWFWO2r8U/YLjr2A57toI/AAAAAAAACO4/0GBonlEZPmAiQW4uvkCTm5LvlJVd_-l_wCNcBGAsYHQ/s16000/team-1-2.jpg"
+            alt="Logo"
+          />
+          <h3>Anamika Roy</h3>
+          <p>Designer</p>
+        </div>
+        <ul class="list-unstyled components">
+          <li>
+            <a
+              href="#homeSubmenu"
+              data-toggle="collapse"
+              aria-expanded="false"
+              class="dropdown-toggle"
+              >Dashboard</a
+            >
+            <ul class="collapse list-unstyled" id="homeSubmenu">
+              <li><a href="#">Overview</a></li>
+              <li><a href="#">Reports</a></li>
+              <li><a href="#">Analytics</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="active">
+              <span class="icon"><i class="fas fa-home"></i></span>
+              <span class="item">Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><i class="fas fa-user-friends"></i></span>
+              <span class="item">People</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
+              <span class="item">Perfomance</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><i class="fas fa-database"></i></span>
+              <span class="item">Development</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><i class="fas fa-chart-line"></i></span>
+              <span class="item">Reports</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><i class="fas fa-user-shield"></i></span>
+              <span class="item">Admin</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><i class="fas fa-cog"></i></span>
+              <span class="item">Settings</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Page Content -->
+      <div id="content">
+        <div class="container-fluid">
+          <h2>Dashboard</h2>
+
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card bg-c-blue order-card">
+                    <div class="card-body">
+                        <h6 class="m-b-20">Orders Received</h6>
+                        <h2 class="text-right">
+                          <i class="fa fa-cart-plus f-left"></i><span>486</span>
+                        </h2>
+                        <p class="m-b-0">
+                          Completed Orders : <span class="f-right">351</span>
+                        </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card bg-c-green order-card">
+                <div class="card-body">
+                  <h6 class="m-b-20">Orders Received</h6>
+                  <h2 class="text-right">
+                    <i class="fa fa-rocket f-left"></i><span>486</span>
+                  </h2>
+                  <p class="m-b-0">
+                    Completed Orders : <span class="f-right">351</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card bg-c-yellow order-card">
+                <div class="card-body">
+                  <h6 class="m-b-20">Orders Received</h6>
+                  <h2 class="text-right">
+                    <i class="fa fa-refresh f-left"></i><span>486</span>
+                  </h2>
+                  <p class="m-b-0">
+                    Completed Orders : <span class="f-right">351</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card bg-c-pink order-card">
+                <div class="card-body">
+                  <h6 class="m-b-20">Orders Received</h6>
+                  <h2 class="text-right">
+                    <i class="fa fa-credit-card f-left"></i><span>486</span>
+                  </h2>
+                  <p class="m-b-0">
+                    Completed Orders : <span class="f-right">351</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
